@@ -52,12 +52,12 @@ function logIn() {
           if (passList[eIndex] == password && Number(input) == random) {
             alert(`Welcome ${nameList[eIndex]}`);
           } else if (passList[eIndex] != password) {
-            alert("Wrong Password or Email!!");
+            alert("Wrong Password or Email !");
           } else if (Number(input) != random) {
             alert("Wrong Captcha!");
           }
         } else {
-          alert("Wrong password or Email!");
+          alert("Wrong password or Email !");
         }
       });
   }
