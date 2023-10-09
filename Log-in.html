@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.4.2-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--Start Log in Page-->
+    <div class="login d-flex flex-column align-items-center gap-4 p-3 m-auto">
+      <h3>Welcome Back :)</h3>
+      <!--Start Log in Section-->
+      <section class="w-75 d-inline-flex flex-column flex-fill gap-2">
+        <!--Start input forms-->
+        <div class="form-group d-flex flex-column gap-2">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="emailL"
+            placeholder="Enter email"
+            name="email"
+          />
+
+          <div class="d-flex justify-content-between">
+            <label for="pwd">Password:</label>
+            <a href="#" class="text-decoration-none forgot">Forgot password?</a>
+          </div>
+          <input
+            type="password"
+            class="form-control password"
+            id="pwrdL"
+            placeholder="Enter password"
+            name="pwd"
+          />
+          <i class="fa-regular fa-eye-slash me-5 show" id="showL"></i>
+
+          <!--Start Remember Me-->
+          <label><input type="checkbox" name="remember" /> Remember me</label>
+          <!--End Remember Me-->
+        </div>
+        <!--End input forms-->
+
+        <!--Start Captcha-->
+        <div class="d-flex justify-content-between">
+          <div class="captcha d-flex column-gap-3 p-1">
+            <div id="num" class="flex-grow-1"></div>
+            <div class="refresh">
+              <button id="refresh" class="border-0"><i class="fa-solid fa-rotate-right"></i></button>
+            </div>
+          </div>
+          <input
+            type="text"
+            id="text"
+            class="border-0 w-50 p-1 rounded-1 d-flex"
+            placeholder="Enter captcha"
+          />
+        </div>
+        <!--End Captcha-->
+
+        <!--Start submit loggin in-->
+        <button
+          type="submit"
+          class="btn btn-default border border-secondary rounded-0 text-secondary mt-2"
+          id="Log-in"
+        >
+          Log in
+        </button>
+        <!--End submit loggin in-->
+
+        <!--Start sign in part-->
+        <p class="text-secondary mt-2">
+          Don't have an account?
+          <a href="./index.html" class="text-white text-decoration-none"
+            >Sign up</a
+          >
+        </p>
+        <!--End sign in part-->
+      </section>
+      <!--End Log in Section-->
+    </div>
+    <!--End Log in Page-->
+
+    <div class="welcome"></div>
+
+    <script src="./js/script2.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

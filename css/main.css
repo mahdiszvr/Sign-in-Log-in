@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e9e1d2;
+}
+
+input{
+  background-color: #e7e3db !important;
+}
+div.login {
+  width: 350px;
+  height: 420px;
+  background-color: #0a0a2a;
+  color: #e7e3db;
+  transform: translateY(25%);
+  border-radius: 5px;
+}
+
+.forgot{
+  color: #e7e3dbae;
+}
+button.btn:hover {
+  color: #e7e3db !important;
+  border: 1px solid #e7e3db!important;
+  box-shadow: 3px 3px 10px #e7e3db6a !important;
+}
+.show{
+  position: absolute;
+  top: 203px;
+  right: 15px;
+  color: #0a0a2a;
+}
+#show{
+  cursor: pointer;
+}
+#showL{
+  cursor: pointer;
+}
+div.sign-in{
+  width: 370px;
+  background-color: #0a0a2a;
+  color: #e7e3db;
+  transform: translateY(15%);
+  border-radius: 5px;
+}
+.show1{
+  position: absolute;
+  top: 280px;
+  right: 15px;
+  color: #0a0a2a;
+}
+.show2{
+  position: absolute;
+  top: 357px;
+  right: 15px;
+  color: #0a0a2a;
+}
+.captcha{
+  background-color: #e7e3db !important;
+  color: #0a0a2a !important;
+}
+button#refresh{
+  background-color: #e7e3db !important;
+}

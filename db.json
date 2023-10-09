@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "name": "yg",
+      "email": "yegane@gmail.com",
+      "password": "yg123",
+      "id": 1
+    },
+    {
+      "name": "pouya",
+      "email": "pouya@gmail.com",
+      "password": "p123",
+      "id": 2
+    }
+  ]
+}

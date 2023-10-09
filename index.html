@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+
+    <link
+      rel="stylesheet"
+      href="./bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.4.2-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--Start Sign in Page-->
+    <div class="sign-in d-flex flex-column align-items-center gap-4 p-3 m-auto">
+      <h3>Create account</h3>
+      <!--Start sign in Section-->
+      <section class="w-75 d-inline-flex flex-column flex-fill gap-4">
+        <!--Start input forms-->
+        <div class="form-group d-flex flex-column gap-2">
+          <label for="email">Full Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter Name"
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter email"
+            name="email"
+          />
+
+          <label for="pwd">Password:</label>
+          <input
+            type="password"
+            class="form-control password"
+            id="pwrd"
+            placeholder="Enter password"
+            name="pwd"
+          />
+          <i class="fa-regular fa-eye-slash me-5 show1" id="show"></i>
+
+        </div>
+        <!--End input forms-->
+
+        <!--Start Captcha-->
+        <div class="d-flex justify-content-between">
+          <div class="captcha d-flex column-gap-3 p-1">
+            <div id="num" class="flex-grow-1"></div>
+            <div class="refresh">
+              <button id="refresh" class="border-0"><i class="fa-solid fa-rotate-right"></i></button>
+            </div>
+          </div>
+          <input
+            type="text"
+            id="text"
+            class="border-0 w-50 p-1 rounded-1 d-flex"
+            placeholder="Enter captcha"
+          />
+        </div>
+        <!--End Captcha-->
+
+        <!--Start submit creating-->
+        <button
+          type="submit"
+          class="btn btn-default border border-secondary rounded-0 text-secondary btn1 mt-2" id="create"
+        >Create account
+        </button>
+        <!--End submit creating-->
+
+        <!--Start log in part-->
+        <p class="text-secondary">Already have an account? <a href="./Log-in.html" class="text-white text-decoration-none">Log in</a></p>
+        <!--End log in part-->
+      </section>
+      <!--End sign in Section-->
+    </div>
+    <!--End Sign in Page-->
+
+    <script src="./js/script.js"></script>
+    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
