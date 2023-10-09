@@ -11,6 +11,12 @@
       "email": "pouya@gmail.com",
       "password": "p123",
       "id": 2
+    },
+    {
+      "name": "jk",
+      "email": "jeon",
+      "password": "jk123",
+      "id": 3
     }
   ]
 }
